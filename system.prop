@@ -9,6 +9,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 # Charger
 ro.charger.disable_init_blank=true
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1

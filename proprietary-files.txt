@@ -99,6 +99,7 @@ vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libFace3DTA.so
 vendor/lib64/libFace3D_hlos.so
 vendor/lib64/libHalSuperSensorServer.so
+vendor/lib64/libI420colorconvert.so
 vendor/lib64/libMIAIHDRhvx_interface.so
 vendor/lib64/libPSNPE.so
 vendor/lib64/libPlatformValidatorShared.so
@@ -128,9 +129,16 @@ vendor/lib64/libcamxncs.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcvface_api.so
+vendor/lib64/libcvp2.so
+vendor/lib64/libcvp2_hfi.so
+vendor/lib64/libcvp_common.so
+vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdng_sdk2vendor.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
@@ -432,6 +440,11 @@ vendor/firmware/ipa_uc.b01
 vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
+
+# insmod
+vendor/etc/init/exfat.rc
+vendor/etc/init/init.fpc1540_ko.rc
+vendor/etc/init/init.gf_spi_ko.rc
 
 # NFC
 vendor/etc/libnfc-nci.conf

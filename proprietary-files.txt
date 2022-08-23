@@ -399,6 +399,9 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 
+# Camera-sensor (Redmi K40S) - from munch MIUI V13.0.5.0.SLMCNXM
+vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_imx582_wide.bin|85bda45f378ff957243119885c82c27f0098d880
+
 # Charger (HVDCP)
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh

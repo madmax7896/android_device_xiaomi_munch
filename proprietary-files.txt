@@ -63,6 +63,7 @@ vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio firmware
+vendor/firmware/mono.cnt
 vendor/firmware/tfa98xx.cnt
 
 # Camera

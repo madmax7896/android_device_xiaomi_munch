@@ -448,11 +448,6 @@ vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
-# insmod
-vendor/etc/init/exfat.rc
-vendor/etc/init/init.fpc1540_ko.rc
-vendor/etc/init/init.gf_spi_ko.rc
-
 # NFC
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf

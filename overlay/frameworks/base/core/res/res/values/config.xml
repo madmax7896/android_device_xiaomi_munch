@@ -460,9 +460,9 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M 514,52
-        a 20,20 0 1 0 52,0 
-        a 20,20 0 1 0 -52,0
+        M 519,52
+        a 20,20 0 1 0 42,0
+        a 20,20 0 1 0 -42,0
         Z
         @left
     </string>

@@ -13,7 +13,7 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-arrow
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -24,8 +24,6 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 31
-
-PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
 # Audio configs
 PRODUCT_COPY_FILES += \

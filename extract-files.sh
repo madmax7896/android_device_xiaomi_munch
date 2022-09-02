@@ -7,6 +7,14 @@
 
 # If we're being sourced by the common script that we called,
 # stop right here. No need to go down the rabbit hole.
+function blob_fixup() {
+    case "${1}" in
+        vendor/lib64/camera/components/com.mi.node.watermark.so )
+            $PATCHELF --add-needed "libpiex_shim.so" "${2}"
+            ;;
+    esac
+}
+
 if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
     return
 fi

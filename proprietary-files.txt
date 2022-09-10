@@ -1,4 +1,4 @@
-# Device proprietary files - from munch MIUI V13.0.4.0.SLMMIXM package, unless pinned
+# Device proprietary files - from munch MIUI V13.0.5.0.SLMMIXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -15,6 +15,7 @@ vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
+vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
@@ -548,9 +549,6 @@ vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 
 # Thermal
-vendor/bin/mi_thermald
-vendor/etc/init/init.mi_thermald.rc
-vendor/etc/init/init_thermal-engine.rc
 vendor/etc/thermal-4k.conf
 vendor/etc/thermal-8k.conf
 vendor/etc/thermal-camera.conf

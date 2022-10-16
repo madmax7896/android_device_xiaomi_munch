@@ -14,6 +14,8 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+DEVICE_MAINTAINER := madmax7896
+
 PRODUCT_NAME := arrow_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi

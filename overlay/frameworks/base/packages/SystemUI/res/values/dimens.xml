@@ -45,5 +45,5 @@
     <dimen name="status_bar_header_height_keyguard">@dimen/navigation_side_padding</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">1px</dimen>
+    <dimen name="status_bar_padding_top">7dp</dimen>
 </resources>

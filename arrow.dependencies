@@ -6,11 +6,11 @@
   },
   {
     "repository":   "android_kernel_xiaomi_munch",
-    "target_path":  "kernel/xiaomi/sm8250"
+    "target_path":  "kernel/xiaomi/munch"
   },
   {
     "remote":       "gitlab",
-    "repository":   "madmax7896/android_vendor_xiaomi_sm8250-common",
-    "target_path":  "vendor/xiaomi/sm8250-common"
+    "repository":   "madmax7896/android_vendor_xiaomi_munch",
+    "target_path":  "vendor/xiaomi/munch"
   }
 ]

@@ -202,6 +202,7 @@
         <device name="SND_DEVICE_OUT_VOICE_TTY_VCO_HEADSET" backend="headset" interface="RX_CDC_DMA_RX_0"/>
         <device name="SND_DEVICE_OUT_HANDSET" backend="handset" interface="TERT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER" backend="speaker" interface="TERT_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_SAFE" backend="speaker" interface="TERT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_GAME_SPEAKER" backend="speaker" interface="TERT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_MONO" backend="speaker" interface="TERT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_MONO_2" backend="speaker" interface="TERT_MI2S_RX"/>

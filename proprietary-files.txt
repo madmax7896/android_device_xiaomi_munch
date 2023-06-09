@@ -1,4 +1,4 @@
-# Device proprietary files - from munch MIUI V14.0.1.0.TLMMIXM package, unless pinned
+# Device proprietary files - from munch MIUI V14.0.2.0.TLMMIXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -22,7 +22,6 @@ vendor/lib/rfsa/adsp/libSuperSensor_skel.so
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so
 vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
-vendor/lib/rfsa/adsp/libarc_hta_driver_skel.so
 vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
 vendor/lib/rfsa/adsp/libcalculator_domains_skel.so
 vendor/lib/rfsa/adsp/libcalculator_skel.so
@@ -35,7 +34,6 @@ vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libfrc_mobilenet.so
 vendor/lib/rfsa/adsp/libhdr_cdsp_skel.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib/rfsa/adsp/libhta_dsp_skel.so
 vendor/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so
 vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
 vendor/lib/rfsa/adsp/libmobilenet_dsp.so
@@ -211,7 +209,6 @@ vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
 vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_hta.so
 vendor/lib64/libarcsoft_mf_superresolution.so
 vendor/lib64/libarcsoft_portrait_lighting.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so

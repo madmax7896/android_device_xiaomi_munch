@@ -2,7 +2,7 @@
   {
     "repository":   "android_device_xiaomi_sm8250-common",
     "target_path":  "device/xiaomi/sm8250-common",
-    "branch":       "arrow-13.0-munch"
+    "branch":       "arrow-13.1-munch"
   },
   {
     "remote":       "gitlab",
